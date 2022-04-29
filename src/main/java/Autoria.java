@@ -20,7 +20,7 @@ public class Autoria {
     By region = By.xpath("//label[@for=\"brandTooltipBrandAutocompleteInput-region\"]");
     By priceFrom = By.xpath("//input[@name='price_ot']");
     By priceTo = By.xpath("//input[@name='price_do']");
-    int expectedNumberOfCarsOnList = 10;
+    int expectedNumberOfCarsOnList = 20; //* сколько машин на странице мы ожидаем увидеть*/
 
     //2  Метожы описывающие действие
 
